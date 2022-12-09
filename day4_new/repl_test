@@ -1,0 +1,13 @@
+"hello" + "december"
+"Hello " + "World"
+"Hello" + "World"
+"head"+" toe"
+console.log("BlackPink")
+let age=25
+age*3
+const add=(num)=>{
+return num+5;
+add(10)
+
+return num+5;}
+add(10)
