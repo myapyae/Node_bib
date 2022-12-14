@@ -1,5 +1,5 @@
 var express = require('express');
-const router = require('route.js');
+const router = require('./route.js');
 
 var app = express();
 
