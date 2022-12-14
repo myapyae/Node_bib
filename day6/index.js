@@ -24,8 +24,14 @@ app.post("/writing", function (req, res)  {
       "profession": "Singer",
       "id": 11
     });
+
+    newUser.push(lisa);
   
     res.send(newUser);
+    fs.writeFile(__dirname + "/user.json", JSON.stringify(newUser), err => {
+      if (err) throw err;
+      console.log("New User added!");
+    })
   });
  
 });
