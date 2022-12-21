@@ -7,6 +7,7 @@ const postRouter = express.Router();
 postRouter.post('/', createMovie)
 
 //update movie
+//need to use put method for update
 postRouter.put('/update/:id', updateMovie)
 
 //get movie
